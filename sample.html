@@ -1,0 +1,28 @@
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script src="./scripts/jquery-3.3.1.js" charset="UTF-8"></script>
+    <script>if (typeof module === 'object') {window.jQuery = window.$ = module.exports;};</script>
+    <script src="./scripts/i18next.js" charset="UTF-8"></script>
+    <script src="./scripts/jquery-i18next.js" charset="UTF-8"></script>
+    <!-- <script src="/jquery-i18next.min.js" ></script> -->
+  </head>
+
+  <body>
+    <ul class="nav">
+      <li><a href="index.html" data-i18n="nav.home"></a></li>
+      <li><a href="#" data-i18n="nav.page1"></a></li>
+      <li><a href="#" data-i18n="nav.page2"></a></li>
+    </ul>
+
+    <div class="content">
+      <input data-i18n="[placeholder]input.placeholder; [title]input.placeholder" />
+    </div>
+	
+	<button onclick="Localize('en')">English</button>
+	<button onclick="Localize('cn')">中文</button>
+  
+  <script src="./scripts/sample.js" charset="UTF-8"></script>
+  </body>
+
+</html>

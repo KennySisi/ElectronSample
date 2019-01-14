@@ -1,0 +1,8 @@
+{ "nav" :{  
+        "home":"主页",  
+        "page1" :"PageOne",  
+        "page2" : "第二页",  
+        "button" : "Search",  
+        "input" : "Input your name"  
+    }  
+}
